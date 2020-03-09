@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Listas de peliculas (segunda accion)";
+    
+    }
+
+<ul>
+    @{
+        List<string> peliculas = new List<string>()
+            {
+                "V de Venganza", "El jajas", "Lobezno"
+            };
+            foreach(var pelicula in peliculas)
+            {
+                <li>@pelicula</li>
+            }
+    }
+</ul>

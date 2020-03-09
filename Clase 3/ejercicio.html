@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <h1 id="tit1" name="tit1">Ejemplo de pasar el ratón</h1>
+    <h2 id="tit2" name="tit2">Título 2</h2>
+</head>
+
+<body>
+    <p id="p1" name="p1">Click Simple aquí</p>
+    <p id="p2" name="p2">Click doble aquí</p>
+    <p id="p3" name="p3">Mantener click presionado aquí</p>
+    <p id="p4" name="p4">Click y soltar aquí</p>
+    <p id="p5" name="p5">Presionar una tecla del teclado, después se cambia el texto.</p>
+    <input id="int1" name="int1" type="text" placeholder="Introducir tu nombre">
+    <input id="int2" name="int2" type="text" placeholder="Introducir tu apellido">
+    <input id="int3" name="int3" type="text" placeholder="Introducir matrícula">
+    <input id="inb1" name="inb1" type="button" value="a">
+    <input id="inb2" name="inb2" type="button" value="b">
+    <input id="inb3" name="inb3" type="button" value="c">
+    <input id="inb4" name="inb4" type="button" value="d">
+
+    
+    <!--EL SCRIPT DE JQUERY VA PRIMERO -->
+    <script src="js/JQuery.js"></script> 
+    
+     <!--LOS SCRIPTS QUE HAGAN REFERENCIA A JQUERY VAN DESPUÈS-->
+    
+    
+    <script>
+        
+        /**
+        
+        Selector: $()
+        para:
+        etiquetas: $("")
+        clases: $(".")
+        id: $("#")
+        el mismo elemento: $(this)
+        
+        **/
+        
+        
+        //Ejemplo del evento click.
+        $("#p1").click(function()
+    {
+        alert("click simple");
+    });
+        
+        //Se pueden poner varios eventos dentro de la etiqueta script.
+        
+        //Ejemplo del evento dblclick.
+        $("#p2").dblclick(function() 
+    {
+        //Dentro de un envento se pueden cambiar las cosas; Ejemplo:
+            
+        alert("click doble");
+        $("#p3").text("Esto es un texto nuevo después del doble click.");    
+    });
+        
+        //EJEMPLO DE MOUSE ENTER.
+        
+        $("#tit1").mouseenter(function()
+    {
+            $(this).css("color","blue");
+    });
+        //EJEMPLO DE MOUSE LEAVE.
+
+        $("#tit1").mouseleave(function()
+    {
+            $(this).css("color","black");
+    });
+        
+        //EJEMPLO DE HOVER EN JQUERY.
+        
+        $("#tit2").hover(function()
+    {
+        $(this).css("color","blue");    
+    },
+    function()
+    {
+        $(this).css("color","pink");
+    });
+        //EJEMPLO DE MOUSEDOWN.
+        $("#p3").mousedown(function()
+    {
+        $(this).html("<b>Texto cambiado</b>")        
+    });
+        //EJEMPLO DE MOUSEUP.
+        $("#p4").mouseup(function()
+    {
+        $(this).html("<b>Texto cambiado</b>")        
+    });
+        $("#tit1").mousemove(function()
+    {
+        $(this).css("color","white");
+    });
+        $(document).keydown(function()
+        {
+            $("#p5").html("tecla pulsada");
+        });
+    </script>
+    
+</body>
+</html>

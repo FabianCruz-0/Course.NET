@@ -1,0 +1,11 @@
+C:\Users\usuario\Documents\programacion\programacion.web\dreamweaver\CURSOS\Prog.NET\Clase 7\prog\obj\Debug\netcoreapp3.0\prog.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\programacion\programacion.web\dreamweaver\CURSOS\Prog.NET\Clase 7\prog\obj\Debug\netcoreapp3.0\prog.AssemblyInfoInputs.cache
+C:\Users\usuario\Documents\programacion\programacion.web\dreamweaver\CURSOS\Prog.NET\Clase 7\prog\obj\Debug\netcoreapp3.0\prog.AssemblyInfo.cs
+C:\Users\usuario\Documents\programacion\programacion.web\dreamweaver\CURSOS\Prog.NET\Clase 7\prog\bin\Debug\netcoreapp3.0\prog.exe
+C:\Users\usuario\Documents\programacion\programacion.web\dreamweaver\CURSOS\Prog.NET\Clase 7\prog\bin\Debug\netcoreapp3.0\prog.deps.json
+C:\Users\usuario\Documents\programacion\programacion.web\dreamweaver\CURSOS\Prog.NET\Clase 7\prog\bin\Debug\netcoreapp3.0\prog.runtimeconfig.json
+C:\Users\usuario\Documents\programacion\programacion.web\dreamweaver\CURSOS\Prog.NET\Clase 7\prog\bin\Debug\netcoreapp3.0\prog.runtimeconfig.dev.json
+C:\Users\usuario\Documents\programacion\programacion.web\dreamweaver\CURSOS\Prog.NET\Clase 7\prog\bin\Debug\netcoreapp3.0\prog.dll
+C:\Users\usuario\Documents\programacion\programacion.web\dreamweaver\CURSOS\Prog.NET\Clase 7\prog\bin\Debug\netcoreapp3.0\prog.pdb
+C:\Users\usuario\Documents\programacion\programacion.web\dreamweaver\CURSOS\Prog.NET\Clase 7\prog\obj\Debug\netcoreapp3.0\prog.dll
+C:\Users\usuario\Documents\programacion\programacion.web\dreamweaver\CURSOS\Prog.NET\Clase 7\prog\obj\Debug\netcoreapp3.0\prog.pdb

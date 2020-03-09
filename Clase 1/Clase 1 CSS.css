@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+#header {
+    color: yellow;
+    font-family: "Georgia";
+    text-align: center;
+}
+#tablaDatos {
+    margin: auto;
+}
+
+input[type=text]{
+    border-color: yellow;
+    border-top-style: dotted;
+    border-width: 2px;
+    border-radius: 7px;
+}
+
+#divText{
+    
+    font-family: "Century Gothic";
+    size: 4px;
+    color: black;
+}
+
+#tablatexto{
+    margin: auto;
+    width: 80%;
+    
+}
+.tableClass{
+    width: 60%;
+    margin: auto;
+}
+
+img{
+    
+    border-radius: 10px;
+}
+
+p{
+    text-align: justify;
+}
+
+#TextoDiv{
+    font-family: "Century Gothic";
+    text-align:justify;
+}
+body{
+    background: url("wp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+
